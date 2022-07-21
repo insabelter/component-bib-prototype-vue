@@ -8,6 +8,7 @@
   "module": "./dist/component-library-vue.es.js",
   "types": "./dist/main.d.ts",
   "scripts": {
+    "start": "npm run dev",
     "dev": "vite",
     "build": "node build/exports.js && vite build && tsc --emitDeclarationOnly && npm run copy_styles",
     "copy_styles": "@powershell copy-item 'src/assets/styles.css' 'dist/main.css'"
@@ -38,8 +39,7 @@
     "fast-glob": "^3.2.7",
     "tsup": "^5.2.1",
     "typescript": "^4.4.3",
-    "vite": "^2.6.2",
-    "vite-plugin-windicss": "^1.4.9"
+    "vite": "^2.6.2"
   },
   "eslintConfig": {
     "extends": "@antfu/eslint-config",
