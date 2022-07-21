@@ -9,7 +9,8 @@
   "types": "./dist/main.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "node build/exports.js && vite build && tsc --emitDeclarationOnly"
+    "build": "node build/exports.js && vite build && tsc --emitDeclarationOnly && npm run copy_styles",
+    "copy_styles": "@powershell copy-item 'src/assets/styles.css' 'dist/main.css'"
   },
   "exports": {
     ".": {
