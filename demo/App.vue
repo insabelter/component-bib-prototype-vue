@@ -15,3 +15,11 @@ const state = reactive({
     <li v-for="tag in state.tags">{{ tag }}</li>
   </ul>
 </template>
+
+<style>
+.card {
+  background-color: yellow;
+  /* background-color: red !important; */
+  /* --card-bg-color: green; */
+}
+</style>

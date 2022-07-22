@@ -24,16 +24,16 @@ function addTag() {
 </template>
 
 <style scoped>
-:where(#tag-input) {
+#tag-input {
   margin-block-end: var(--spacing-m);
 }
 
-:where(.tag-input-tag) {
+.tag-input-tag {
   margin-inline-end: var(--spacing-s);
   margin-block: var(--spacing-xs);
 }
 
-:where(.tag-container) {
+.tag-container {
   display: flex;
   width: 100%;
   flex-wrap: wrap;

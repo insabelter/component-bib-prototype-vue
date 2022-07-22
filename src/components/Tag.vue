@@ -23,7 +23,7 @@ function deleteTag() {
 </template>
 
 <style scoped>
-:where(.badge) {
+.badge {
   --_badge-bg-color: var(--color-accent-bg-secondary); /* private custom property */
   --_badge-color: var(--color-accent-text); /* private custom property */
   --_badge-icon-color: var(--color-accent-text); /* private custom property */
@@ -48,13 +48,13 @@ function deleteTag() {
   vertical-align: middle;
 }
 
-:where(.badge > button) {
+.badge > button {
   color: var(--_badge-color);
   background-color: transparent;
   border: transparent;
 }
 
-:where(.badge > button:hover) {
+.badge > button:hover {
   cursor: pointer;
 }
 </style>

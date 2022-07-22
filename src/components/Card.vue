@@ -18,7 +18,7 @@ defineProps<{
     --card-bg-color: var(--color-bg);
   }
 
-  :where(.card) {
+  .card {
     --inline-padding: 1.5rem;
     max-inline-size: calc(var(--max-line-length) + 2 * var(--inline-padding));
     margin: 1.5rem;
