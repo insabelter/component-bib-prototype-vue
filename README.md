@@ -5,7 +5,9 @@ This project is part of my bachelor thesis with the topic of defining the best s
 Here is an overview of the software parts of this bachelor thesis:
 ![Prototypes_English](https://user-images.githubusercontent.com/54104208/185070168-6168f409-8279-4287-a2ad-0d13eb6c5dc5.png)
 
-This project represents the **Vue.js component library prototype**.
+This project represents the **Vue.js component library prototype**. 
+
+The project structure is based on the following repository from [wheatjs](https://github.com/wheatjs): https://github.com/wheatjs/vaguer
 
 The links to all the parts of the bachelor thesis are listed below.
 
