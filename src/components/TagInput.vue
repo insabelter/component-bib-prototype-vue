@@ -17,9 +17,21 @@ function addTag() {
 </script>
 
 <template>
-  <input v-model="state.inputText" type="text" id="tag-input" :title="placeholder" :placeholder="placeholder" @keyup.enter="addTag"/>
+  <input 
+    type="text" 
+    id="tag-input" 
+    v-model="state.inputText" 
+    :title="placeholder" 
+    :placeholder="placeholder" 
+    @keyup.enter="addTag"
+  />
   <div class="tag-container">
-    <Tag class="tag-input-tag" v-for="tag in tags" v-model:tags="tags" :tag="tag"></Tag>
+    <Tag 
+      class="tag-input-tag" 
+      v-for="tag in tags" 
+      v-model:tags="tags" 
+      :tag="tag">
+    </Tag>
   </div>
 </template>
 
